@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+}
+
+body{
+    $fontfamilyAll: sans-serif;
+    font-size: $fontsizeTextContent;
+    background-color: $colorwhite;
+    line-height: 1.4;
+    color: $colorblack;
+    min-height: 100vh;
+    font-weight: normal;
+}
