@@ -1,0 +1,69 @@
+.main-header{
+    
+    background-size: content;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 568px;
+    background-image: url(../images/cover.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+.header-tittle_two{
+    color: $colorwhite;
+}
+
+.main_header_topbutton{
+    background-color: $colorbluecerulean;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    
+}
+
+.topbutton_bgimage{
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+
+}
+
+.header_title{
+    text-align: center;
+    
+    width: 400px;
+    height: 250px;
+  
+}
+
+.header-tittle_one{
+    color: $colorwhite;
+}
+
+.endbutton{
+
+  background-color: $colorwhite;
+  border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 53px;
+
+    
+}
+
+.button_img{
+    display: block;
+margin: auto;
+margin-top: 10px;
+width: 20px;
+height: 20px;
+}

@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px solid lightblue;
+    border: 1px solid white;
 }
 
 body{
@@ -11,4 +11,8 @@ body{
     color: $colorblack;
     min-height: 100vh;
     font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
