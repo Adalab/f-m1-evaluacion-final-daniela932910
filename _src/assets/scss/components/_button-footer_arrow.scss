@@ -1,17 +1,22 @@
 .main-footer_arrow{
-    background-color: $colorsnow;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-20px,-20px);
-    box-shadow: 0 3px 5px 0;    
+        background-color: $colorsnow;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-20px,-20px);
+        box-shadow: 0 3px 5px 0;    
 
-    img{
-        margin:auto;
-        margin-top: 3px;
-        height: 25px;
-    }
+        @media all and (min-width:768px){
+            top: 0px;
+
+        }   
+
+        img{
+            margin:auto;
+            margin-top: 3px;
+            height: 25px;
+        }
 
 }

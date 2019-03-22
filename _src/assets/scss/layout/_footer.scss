@@ -1,7 +1,17 @@
 @import 'components/button-footer_arrow';
 
     .main-footer{ background-color: $colorBgcFooter;
-        position: relative;
+            position: relative;
+        
+        @media all and (min-width:768px){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+           
+        } 
     }
+
+
 @import 'pages/navlist-footer';
 
