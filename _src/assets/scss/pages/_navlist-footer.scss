@@ -1,6 +1,6 @@
 ul{
-        padding: 0px;
-        list-style: none; 
+    padding: 0px;
+    list-style: none; 
 
     a{
         text-decoration: none;
@@ -53,8 +53,8 @@ ul{
 }
 
 .main-footer_div3{
-    text-align: center;
-    color: $colorsnow;
+        text-align: center;
+        color: $colorsnow;
 
     @media all and (min-width:768px){
         order: -1;

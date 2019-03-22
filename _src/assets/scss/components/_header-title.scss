@@ -4,10 +4,16 @@
         margin: 0px 15px 0px 15px;
         width: 290px;
 
-    @media all and (min-width:768px){
-        width: 690px;
+        @media all and (min-width:768px){
+            width: 690px;
       
-    }
+        }
+
+        @media all and (min-width:1200px){
+            width: 730px;
+           
+
+        }  
 }
 
     .header-title_one{
@@ -20,8 +26,15 @@
 
         @media all and (min-width:768px){
             font-size: 80px;
+            line-height: 1.32;
+            height: 264px;
+          
+        }
+
+        @media all and (min-width:1200px){
+            font-size: 100px;
             line-height: 1.33;
-            height: 212px;
+            width: 730px;
           
         }
         
