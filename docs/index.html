@@ -11,22 +11,24 @@
     </head>
     
     <body>
-        <header class="main-header">
+        <header id="home" class="main-header">
             <button class="main-header_menubutton">
-                <img src="assets/images/ico-menu.svg">
+                <img src="assets/images/ico-menu.svg" alt="">
             </button>
             <div class="main-header_title">
-                 <h1 class="header-title_one"> Anonymous proxy  
+                 <h1 class="header-title_one"> Anonymous proxy
         </h1>
 
                 <p class="header-title_two">In hac habitasse platea dictumust.</p>
             </div>
-            <button class="header-button_arrow">
-                <img class="button_img" src="assets/images/ico-scroll-down.svg">
+            <button class="header-button_arrow"> <a href="#main">
+            <img class="button_img" src="assets/images/ico-scroll-down.svg" alt="">
+        </a>
+
             </button>
         </header>
         <main class="section-main">
-            <section class="section-main_primarySection">
+            <section id="main" class="section-main_primarySection">
                 <div class="primarySection-text">
                     <p class="primarySection-text_insomnia">Insomnia tips</p>
                      <h2 class="primarySection-text_subtitle">
@@ -36,8 +38,10 @@
                     <p class="primarySection-text_content">Donec accumusan, nulla ut volutpat porttitor, quam odio tempus felis at
                         luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
                 </div>
-                <button class="primarySection-button">
-                    <p>Go</p>
+                <button class="primarySection-button"> <a href="">
+            Go
+        </a>
+
                 </button>
             </section>
             <section class="section-main_secondarySection">
@@ -48,7 +52,7 @@
 
                 </div>
                 <div class="secondarySection-content">
-                    <div.secondarySection-content>
+                    <div class="grid">
                         <div class="secondarySection-content_block1">
                              <h3 class="content-subtitle">
                     Ut sed metus
@@ -70,57 +74,66 @@
 
                             <p class="content-text">Aliquam in dolor et dolor tincidunt.</p>
                         </div>
-                </div>
-                <button class="secondarySection-button">
-                    <p class="secondarySection-button_text">More reasons</p>
-                </button>
+                    </div>
+                    <button class="secondarySection-button"> <a class="secondarySection-button_text">
+                More reasons
+            </a>
+
+                    </button>
                 </div>
             </section>
         </main>
         <footer class="main-footer">
-            <button class="main-footer_arrow">
-                <img src="assets/images/ico-arrow.svg">
+            <button class="main-footer_arrow"> <a href="#home">
+            <img src="assets/images/ico-arrow.svg" alt="">
+        </a>
+
             </button>
-            <div class="main-footer_div1">
-                <nav>
+            <div class="main-footer_nav">
+                <nav class="main-footer_nav1">
                     <ul>
-                        <li> <a href="#">
+                        <li> <a class href="">
                         Articles
                     </a>
 
                         </li>
-                        <li> <a href="#">
+                        <li> <a href="">
                         Books
                     </a>
 
                         </li>
-                        <li> <a href="#">
+                        <li> <a href="">
                         Events
                     </a>
 
                         </li>
-                        <li> <a href="#">
+                        <li> <a href="">
                         Reasons
                     </a>
 
                         </li>
-                        <li> <a href="#">
+                        <li> <a href="">
                         Tips</a>
 
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="main-footer_div2">
-                <nav>
+            <div class="main-footer_nav nav2">
+                <nav class="main-footer_nav2">
                     <ul>
-                        <li><a href="#">Twitter</a>
+                        <li> <a href="">
+                        Twitter
+                    </a>
 
                         </li>
-                        <li><a href="#">Instagram</a>
+                        <li> <a href="">Instagram
+                    </a>
 
                         </li>
-                        <li><a href="#">Mastodon.Social</a>
+                        <li> <a href="">
+                        Mastodon.Social
+                    </a>
 
                         </li>
                     </ul>
