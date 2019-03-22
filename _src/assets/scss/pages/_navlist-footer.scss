@@ -1,0 +1,38 @@
+ul{
+    padding: 0px;
+    list-style: none; 
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.main-footer_nav{
+    text-align: center;
+    line-height: 1.88;
+    display: flex;
+    flex-basis: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    a{
+        color: $colorsnow;
+        text-transform: uppercase;
+        font-family: $fontfamilyAll;
+        font-size: 15px;
+        line-height: 1.88;
+    }
+}
+
+.main-footer_nav1{
+    margin-top: 30px;
+
+}
+
+
+.main-footer_div3{
+    text-align: center;
+    color: $colorsnow;
+}

@@ -1,5 +1,7 @@
 @import 'components/button-footer_arrow';
 
-.main-footer{ background-color: $colorBgcFooter;
-    position: relative;
-}
+    .main-footer{ background-color: $colorBgcFooter;
+        position: relative;
+    }
+@import 'pages/navlist-footer';
+
