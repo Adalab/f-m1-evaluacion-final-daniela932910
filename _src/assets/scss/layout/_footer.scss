@@ -3,18 +3,17 @@
     .main-footer{ background-color: $colorBgcFooter;
         position: relative;
         
-            @media all and (min-width:768px){
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-           
-            } 
+        @media all and (min-width:768px){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;  
+        } 
 
-            @media all and (min-width:768px){
-                justify-content: space-evenly;
-            
-            }
+        @media all and (min-width:1200px){
+            justify-content: space-evenly;
+            padding: 0px 400px 45px  
+        }
     }
 
 @import 'pages/navlist-footer';
