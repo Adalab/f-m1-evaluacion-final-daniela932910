@@ -1,10 +1,10 @@
 ul{
-    padding: 0px;
-    list-style: none; 
+        padding: 0px;
+        list-style: none; 
 
-    a{
-        text-decoration: none;
-    }
+        a{
+            text-decoration: none;
+        }
 }
 
 .main-footer_nav{
@@ -20,13 +20,13 @@ ul{
         }
    
 
-    a{
-        color: $colorsnow;
-        text-transform: uppercase;
-        font-family: $fontfamilyAll;
-        font-size: 15px;
-        line-height: 1.88;
-    }
+        a{
+            color: $colorsnow;
+            text-transform: uppercase;
+            font-family: $fontfamilyAll;
+            font-size: 15px;
+            line-height: 1.88;
+        }
 }
 
 
@@ -34,29 +34,29 @@ ul{
 .main-footer_nav1{
         margin-top: 30px;
 
-    @media all and (min-width:768px){
-        text-align: left;
-    }
+        @media all and (min-width:768px){
+            text-align: left;
+        }
 
 }
 
 .main-footer_nav2{
-    @media all and (min-width:768px){
-        text-align: left;
-    }
+        @media all and (min-width:768px){
+            text-align: left;
+        }
 }
 
 .main-footer_div3{
-    @media all and (min-width:768px){
-        text-align: left;
-    }
+        @media all and (min-width:768px){
+            text-align: left;
+        }
 }
 
 .main-footer_div3{
         text-align: center;
         color: $colorsnow;
 
-    @media all and (min-width:768px){
-        order: -1;
-    }   
+        @media all and (min-width:768px){
+            order: -1;
+        }   
 }

@@ -1,23 +1,22 @@
 @import 'components/button-footer_arrow';
 
     .main-footer{ background-color: $colorBgcFooter;
-            position: relative;
+        position: relative;
         
-        @media all and (min-width:768px){
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
+            @media all and (min-width:768px){
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
            
-        } 
+            } 
 
-        @media all and (min-width:768px){
-            justify-content: space-evenly;
-            padding: 0px 400px 30px 400px;
+            @media all and (min-width:768px){
+                justify-content: space-evenly;
+                padding: 0px 400px 30px 400px;
             
-        }
+            }
     }
-
 
 @import 'pages/navlist-footer';
 

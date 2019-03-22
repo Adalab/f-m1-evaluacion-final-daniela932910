@@ -17,12 +17,12 @@
 }
 
     .header-title_one{
-            font-family: $fontfamilysubtitle;
-            text-transform: uppercase;
-            font-size: $fontsizeXL;
-            line-height: 55px;
-            margin-bottom: 0px;
-            letter-spacing: 1px;
+        font-family: $fontfamilysubtitle;
+        text-transform: uppercase;
+        font-size: $fontsizeXL;
+        line-height: 55px;
+        margin-bottom: 0px;
+        letter-spacing: 1px;
 
         @media all and (min-width:768px){
             font-size: 80px;
@@ -41,11 +41,11 @@
     }
 
     .header-title_two{
-            font-family: $fontfamilyAll;
-            font-size: $fontsizeS;
-            margin-top: 10px;
-            margin-bottom: 45px;
-            letter-spacing: -0.5px;
+        font-family: $fontfamilyAll;
+        font-size: $fontsizeS;
+        margin-top: 10px;
+        margin-bottom: 45px;
+        letter-spacing: -0.5px;
 
         @media all and (min-width:768px){
             font-size: 24px;

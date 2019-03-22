@@ -1,24 +1,24 @@
 .section-main_primarySection{
-    margin-left: 15px;
+        margin-left: 15px;
 
-    @media all and (min-width:768px){
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+        @media all and (min-width:768px){
+            margin-left: 40px;
+            margin-right: 40px;
+        }
 
-    @media all and (min-width:1200px){
-        padding: 60px 275px 60px 275px;
-    }
+         @media all and (min-width:1200px){
+            padding: 60px 275px 60px 275px;
+        }
 }
 
 .primarySection-text_insomnia{
     
-    color:$colorinsomnia;
-    font-size: $fontsizeXS;
-    font-family:$fontfamilyAll;
-    line-height: $lineheightAll;
-    margin-top: 30px;
-    margin-bottom: 0px;
+        color:$colorinsomnia;
+        font-size: $fontsizeXS;
+        font-family:$fontfamilyAll;
+        line-height: $lineheightAll;
+        margin-top: 30px;
+        margin-bottom: 0px;
 }
 
 .primarySection-text_subtitle{
@@ -33,21 +33,21 @@
         $letterspacingAll;
         margin: 0px 0px 10px 0px;
 
-    @media all and (min-width:768px){
-        font-size: 26px;
-        width: 690px;
-    }
+        @media all and (min-width:768px){
+            font-size: 26px;
+            width: 690px;
+        }
 }
 
 .primarySection-text_content{
-    font-size: 16px;
-    font-family:$fontfamilyAll;
-    color: $colorTextContent;
-    line-height: 25px;
+        font-size: 16px;
+        font-family:$fontfamilyAll;
+        color: $colorTextContent;
+        line-height: 25px;
 
-    @media all and (min-width:768px){
-        font-size: 18px;
-    }
+        @media all and (min-width:768px){
+            font-size: 18px;
+        }
 }
 
 @import 'components/button-main_ok';
