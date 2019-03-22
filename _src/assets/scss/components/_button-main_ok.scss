@@ -6,12 +6,14 @@
         height: 45px;
         margin: 14px 0px 45px 0px;
 
-        p{
+        a{
         color: $colorButtonOk;
         font-size: 20px;
         display: block;
         margin: auto;
         font-family: $fontfamilyAll;
+        text-decoration: none;
+
     }
 
     @media all and (min-width:768px){
