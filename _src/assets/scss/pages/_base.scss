@@ -4,11 +4,9 @@
 }
 
 body{
-    $fontfamilyAll: sans-serif;
-    font-size: $fontsizeTextContent;
-    background-color: $colorwhite;
+    font-family: $fontfamilyAll;
+    background-color: $colorsnow;
     line-height: 1.4;
-    color: $colorblack;
     min-height: 100vh;
     font-weight: normal;
     margin: 0px;
