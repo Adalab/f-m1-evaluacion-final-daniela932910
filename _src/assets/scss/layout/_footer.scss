@@ -12,7 +12,8 @@
         } 
 
         @media all and (min-width:768px){
-            justify-content: space-around;
+            justify-content: space-evenly;
+            padding: 0px 400px 30px 400px;
             
         }
     }
