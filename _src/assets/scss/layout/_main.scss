@@ -2,20 +2,34 @@
     margin-left: 15px;
 }
 
-.text_insomnia{
+.primarySection-text_insomnia{
     
     color:$colorinsomnia;
-    font-size: 14px;
+    font-size: $fontsizeXS;
     font-family:$fontfamilyAll;
-    line-height: 2.14;
+    line-height: $lineheightAll;
     margin-top: 30px;
-    
+    margin-bottom: 0px;
 }
 
-.texto_looking{
-    font-size: 24px;
+.primarySection-text_subtitle{
+    font-size: $fontsizeL;
     line-height: 30px;
     color: $colordarthv;
     font-family: $fontfamilysubtitle;
-
+    font-weight: $fontweightThick;
+    width: 300px;
+    text-transform: capitalize;
+    letter-spacing: 
+    $letterspacingAll;
+    margin: 0px 0px 10px 0px;
 }
+
+.primarySection-text_content{
+    font-size: 16px;
+    font-family:$fontfamilyAll;
+    color: $colorTextContent;
+    line-height: 25px;
+}
+
+@import 'components/button-main_ok';

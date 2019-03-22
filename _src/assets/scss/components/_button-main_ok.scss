@@ -1,0 +1,17 @@
+.primarySection-button{
+    border-radius: 22.5px;
+    border: 2px solid $colorButtonOk;
+    background-color: $colorsnow; 
+    width: 76px;
+    height: 45px;
+    margin: 14px 0px 45px 0px;
+
+    p{
+        color: $colorButtonOk;
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        font-family: $fontfamilyAll;
+
+    }
+}
