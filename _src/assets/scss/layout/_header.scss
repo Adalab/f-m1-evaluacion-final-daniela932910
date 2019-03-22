@@ -1,15 +1,21 @@
 .main-header{
-    
-    background-size: cover;;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 568px;
-    background-image: url(../images/cover.jpg);
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;;
-    align-items: center;
-    position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 568px;
+        background-image: url(../images/cover.jpg);
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;;
+        align-items: center;
+        position: relative;
+
+        @media all and (min-width:768px){
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 768px;
+    }
 }
 
 @import 'components/button-header_menu';
