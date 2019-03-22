@@ -1,0 +1,19 @@
+.secondarySection-button{
+    width: 184px;
+    height: 45px;
+    background-color: $colorButtonOk;
+    border-radius: 22.5px;
+    grid-column: 1/4;
+    margin: 0px 68px 60px 68px;
+
+    .secondarySection-button_text{
+        font-family: $fontfamilyAll;
+        color: $colorsnow;
+        font-size: $fontsizeSL;
+        margin: auto;
+        width: 130px;
+        
+
+    }
+
+}

@@ -1,0 +1,21 @@
+.section-main_secondarySection{
+     text-align: center;
+     background-color:  $colorBgcGrid;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 10% 1fr 20%;
+    
+}
+.secondarySection-tittle{
+    grid-column: span 3;
+    font-family: $fontfamilysubtitle;
+    margin-top: 10px;
+}
+.secondarySection-content{
+    grid-column: span 3;
+
+}
+
+@import 'pages/mainS2-text';
+
+@import 'components/button-main_mrs';
