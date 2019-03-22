@@ -1,5 +1,10 @@
 .section-main_primarySection{
     margin-left: 15px;
+
+    @media all and (min-width:768px){
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 .primarySection-text_insomnia{
@@ -13,16 +18,21 @@
 }
 
 .primarySection-text_subtitle{
-    font-size: $fontsizeL;
-    line-height: 30px;
-    color: $colordarthv;
-    font-family: $fontfamilysubtitle;
-    font-weight: $fontweightThick;
-    width: 300px;
-    text-transform: capitalize;
-    letter-spacing: 
-    $letterspacingAll;
-    margin: 0px 0px 10px 0px;
+        font-size: $fontsizeL;
+        line-height: 30px;
+        color: $colordarthv;
+        font-family: $fontfamilysubtitle;
+        font-weight: $fontweightThick;
+        width: 300px;
+        text-transform: capitalize;
+        letter-spacing: 
+        $letterspacingAll;
+        margin: 0px 0px 10px 0px;
+
+    @media all and (min-width:768px){
+        font-size: 26px;
+        width: 690px;
+    }
 }
 
 .primarySection-text_content{
@@ -30,6 +40,10 @@
     font-family:$fontfamilyAll;
     color: $colorTextContent;
     line-height: 25px;
+
+    @media all and (min-width:768px){
+        font-size: 18px;
+    }
 }
 
 @import 'components/button-main_ok';
