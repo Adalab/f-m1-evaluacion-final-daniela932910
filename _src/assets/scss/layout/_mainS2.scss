@@ -31,8 +31,11 @@
 }
 
 .grid{
+        margin: auto;
+
         @media all and (min-width:768px){
-            margin: 10px 50px 60px 80px;
+            margin:auto;
+            margin-bottom: 60px;
             text-align: center;
             display:grid;
             grid-template-columns: 210px 210px 210px;
@@ -44,7 +47,8 @@
         @media all and (min-width:1200px){
             width: 1065px;
             grid-template-columns: 355px 355px 355px;
-            margin:10px 60px 60px 200px;
+            margin:auto;
+            margin-bottom: 60px;
         }
 }
 
