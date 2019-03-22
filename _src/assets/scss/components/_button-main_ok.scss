@@ -13,8 +13,13 @@
         margin: auto;
         font-family: $fontfamilyAll;
         text-decoration: none;
+        transition: color ease 5s;
 
-    }
+            &:hover{
+                color: $colordarthv;
+            }
+
+        }
 
     @media all and (min-width:768px){
         width: 91px;
